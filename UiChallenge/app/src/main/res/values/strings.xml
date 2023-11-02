@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UiChallenge</string>
+    <array name="Countries">
+        <item>India</item>
+        <item>Norway</item>
+        <item>United Kingdom</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>Germany</item>
+        <item>Japan</item>
+
+    </array>
+</resources>

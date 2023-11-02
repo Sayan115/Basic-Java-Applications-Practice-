@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lists View</string>
+    <string-array name="students">
+        <item>Sayan</item>
+        <item>Pritam</item>
+        <item>Rahul</item>
+        <item>Ash</item>
+        <item>Jack</item>
+    </string-array>
+</resources>

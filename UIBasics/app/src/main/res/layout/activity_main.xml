@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="#D45D79"
+        android:id="@+id/welcomeMsg"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say Hi!"
+        android:layout_below="@id/welcomeMsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#FFD180"
+        android:onClick="onHelloBtnClicked"
+        android:id="@+id/hiButton"/>
+
+
+</RelativeLayout>

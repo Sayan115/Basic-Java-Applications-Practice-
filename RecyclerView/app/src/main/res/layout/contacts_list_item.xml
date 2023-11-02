@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contactsLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/contactsItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Contact Name"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/contactsEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactsItem"
+            android:layout_marginTop="5dp"
+            android:text="Contact Email"
+            android:layout_marginStart="5dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/contactsImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/contactsEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
